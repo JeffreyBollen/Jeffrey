@@ -31,3 +31,5 @@ N is natural number, n is greater then (>) 0
 natural(1).
 
 natural(N):- N > 1,  N2 is N-1, natural(N2).
+A -> 6
+6 :- a
