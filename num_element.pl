@@ -16,4 +16,5 @@ Yes
 
 num_elements([], 0).
 
-num_elements([Head|Tail],  ):- 
+num_elements([Head|Tail],  R):- 
+num-elements(Tail, N), R is N1
